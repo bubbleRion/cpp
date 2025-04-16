@@ -15,6 +15,7 @@ public:
     ~Queue();
     void push(int data);
     int pop();
+    void cleanupQueue();
 };
 
 

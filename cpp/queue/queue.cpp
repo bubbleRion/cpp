@@ -10,7 +10,8 @@ Queue::Queue(int size){
 }
 
 Queue::~Queue(){
-    free(this->pArr);
+    // free(this->pArr);
+    delete [] this->pArr;
 }
 
 void Queue::push(int data){
@@ -28,3 +29,8 @@ int Queue::pop(){
     return this->pArr[index];
 
 }
+// void Queue::cleanupQueue()
+// {
+   
+// };
+

@@ -6,15 +6,16 @@ struct Node{
     struct Node *next;
 };
 
-struct List : Node{
+struct List{
 
-private:
-    Node *ptr;
 public:
+    
+    Node *ptr;
+
     List();
     ~List();
 
-    void insertFirstNode( int data);
+    void insertFirstNode(int data);
     void insertNode( int prevData, int data);
     void deleteNode( int data);
 

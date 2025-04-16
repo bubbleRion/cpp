@@ -3,21 +3,18 @@
 
 int main(void) {
     List list;
-    initList();
     
-    insertFirstNode(4);
-    printList();
-    insertFirstNode(3);
-    printList();
-    insertFirstNode(1);
-    printList();
-    insertNode(1 , 2);
-    printList();
+    list.insertFirstNode(4);
+    list.printList();
+    // list.insertFirstNode(3);
+    // list.printList();
+    // list.insertFirstNode(1);
+    // list.printList();
+    // list.insertNode(1 , 2);
+    // list.printList();
     
-    deleteNode(3);
-    printList();
-        
-    cleanupList();    
+    // list.deleteNode(3);
+    // list.printList();
 
     return 0;
 }
