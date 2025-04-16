@@ -42,12 +42,15 @@ String::String(const String& rhs)
 
 String& String::operator=(const String& rhs)
 {
-    delete [] str_;
-    str_ = new char[rhs.len_ + 1];
-    assert(str_);
-    strcpy(str_ , rhs.str_);
+    if(this != &rhs){
 
-    len_ = rhs.len_;
+        delete [] str_;
+        str_ = new char[rhs.len_ + 1];
+        assert(str_);
+        strcpy(str_ , rhs.str_);
+
+        len_ = rhs.len_;
+    }
 
     return *this;
 }

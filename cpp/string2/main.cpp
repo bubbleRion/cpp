@@ -10,7 +10,9 @@ int main()
     s1 = s2;
     s1 == s2;
 
-    String s4 = "- eric claption";
+    s1 = s1;
+
+    String s4 = " - eric claption";
     const String s5 = s2 + s4;
 
     std::cout << "s1 : " << s1 << std::endl;
