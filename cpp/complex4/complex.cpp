@@ -12,25 +12,25 @@ Complex::Complex(double re , double im)
     // im_ = im;
 }
 
-bool Complex::operator==(const Complex& rhs)
+bool Complex::operator==(const Complex& rhs) const
 {
     return re_ == rhs.re_ && im_ == rhs.im_;
 }
 
-bool Complex::operator!=(const Complex& rhs)
+bool Complex::operator!=(const Complex& rhs) const
 {
     return !this->operator==(rhs);
     // return !(re_ == rhs.re_ && im_ == rhs.im_);
 }
 
-const Complex Complex::operator+(const Complex& rhs)
+const Complex Complex::operator+(const Complex& rhs) const
 {
     Complex result(re_ + rhs.re_ , im_ + rhs.im_);
 
     return result;
 }
 
-const Complex Complex::operator-(const Complex& rhs)
+const Complex Complex::operator-(const Complex& rhs) const
 {
     Complex result(re_ - rhs.re_ , im_ - rhs.im_);
 
@@ -58,12 +58,12 @@ Complex Complex::operator++(int )
     return tmp;
 }
 
-double Complex::real()
+double Complex::real() const
 {
     return re_;
 }
 
-double Complex::imag()
+double Complex::imag() const
 {
     return im_;
 }
