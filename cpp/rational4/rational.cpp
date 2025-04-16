@@ -2,7 +2,7 @@
 #include "rational.h"
 #include "gcd.h"
 
-std::ostream& operator<<(std::ostream& out , const Rational& rhs)
+std::ostream& operator<<(std::ostream& out , Rational& rhs)
 {
     return out << rhs.num_ << "/" << rhs.den_;
 }
