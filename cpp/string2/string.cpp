@@ -2,16 +2,21 @@
 #include <cassert>
 #include "string.h"
 
+std::ostream& operator<<(std::ostream& out , String& rhs)
+{
+    return out << rhs.str_;
+}
+
 String::String()
 {
     str_ = new char[1];
     assert(str_);
-    str_[0] = (char)"\0";
+    str_[0] = '\0';
     len_ = 0;
 }
 
 String::String(const char *s)
-: str_(new char[strlen(s) + 1] , len_(strlen(s)))
+: str_(new char[strlen(s) + 1]) , len_(strlen(s))
 {
     // str_ = new char[strlen(s) + 1];
     assert(str_);
@@ -26,7 +31,7 @@ String::~String()
 }
 
 String::String(const String& rhs)
-: str_(new char[strlen(s) + 1] , len_(strlen(s)))
+: str_(new char[rhs.len_ + 1]) , len_(rhs.len_)
 {
     // str_ new char[rhs.len_ + 1];
     assert(str_);
