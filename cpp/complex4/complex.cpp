@@ -6,9 +6,10 @@ std::ostream& operator<<(std::ostream& out , const Complex& rhs)
 }
 
 Complex::Complex(double re , double im)
+: re_(re) , im_(im) // constructor init. list
 {
-    re_ = re;
-    im_ = im;
+    // re_ = re;
+    // im_ = im;
 }
 
 bool Complex::operator==(const Complex& rhs)
@@ -55,4 +56,24 @@ Complex Complex::operator++(int )
     re_ += 1.0;
 
     return tmp;
+}
+
+double Complex::real()
+{
+    return re_;
+}
+
+double Complex::imag()
+{
+    return im_;
+}
+
+void Complex::real(double re)
+{
+    re_ = re;
+}
+
+void Complex::imag(double im)
+{
+    im_ = im;
 }
