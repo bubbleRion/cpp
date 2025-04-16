@@ -27,6 +27,6 @@ int main()
 
     const Complex c5(3.0 , 5.0);
     // c5.real(4.0);
-    std::cout << "c5 : " << c5.real() << ", " << c5.imag() << "i)" << std::endl;
+    std::cout << "c5 : (" << c5.real() << ", " << c5.imag() << "i)" << std::endl;
     return 0;
 }
