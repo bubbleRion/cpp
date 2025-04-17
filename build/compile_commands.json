@@ -1,0 +1,176 @@
+[
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/array.dir/array/array.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/array/array.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/array/array.cpp",
+  "output": "CMakeFiles/array.dir/array/array.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/array.dir/array/main.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/array/main.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/array/main.cpp",
+  "output": "CMakeFiles/array.dir/array/main.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/complex.dir/complex/complex.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/complex/complex.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/complex/complex.cpp",
+  "output": "CMakeFiles/complex.dir/complex/complex.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/complex.dir/complex/main.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/complex/main.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/complex/main.cpp",
+  "output": "CMakeFiles/complex.dir/complex/main.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/complex4.dir/complex4/complex.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/complex4/complex.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/complex4/complex.cpp",
+  "output": "CMakeFiles/complex4.dir/complex4/complex.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/complex4.dir/complex4/main.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/complex4/main.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/complex4/main.cpp",
+  "output": "CMakeFiles/complex4.dir/complex4/main.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/employee.dir/employee/employee.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/employee/employee.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/employee/employee.cpp",
+  "output": "CMakeFiles/employee.dir/employee/employee.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/employee.dir/employee/main.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/employee/main.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/employee/main.cpp",
+  "output": "CMakeFiles/employee.dir/employee/main.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/employee.dir/employee/string.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/employee/string.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/employee/string.cpp",
+  "output": "CMakeFiles/employee.dir/employee/string.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/empty.dir/empty/main.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/empty/main.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/empty/main.cpp",
+  "output": "CMakeFiles/empty.dir/empty/main.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/link.dir/link/list.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/link/list.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/link/list.cpp",
+  "output": "CMakeFiles/link.dir/link/list.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/link.dir/link/main.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/link/main.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/link/main.cpp",
+  "output": "CMakeFiles/link.dir/link/main.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/queue.dir/queue/main.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/queue/main.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/queue/main.cpp",
+  "output": "CMakeFiles/queue.dir/queue/main.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/queue.dir/queue/queue.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/queue/queue.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/queue/queue.cpp",
+  "output": "CMakeFiles/queue.dir/queue/queue.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/rational4.dir/rational4/main.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/rational4/main.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/rational4/main.cpp",
+  "output": "CMakeFiles/rational4.dir/rational4/main.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/rational4.dir/rational4/rational.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/rational4/rational.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/rational4/rational.cpp",
+  "output": "CMakeFiles/rational4.dir/rational4/rational.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/stack.dir/stack/main.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/stack/main.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/stack/main.cpp",
+  "output": "CMakeFiles/stack.dir/stack/main.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/stack.dir/stack/stack.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/stack/stack.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/stack/stack.cpp",
+  "output": "CMakeFiles/stack.dir/stack/stack.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/stack2.dir/stack2/main.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/stack2/main.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/stack2/main.cpp",
+  "output": "CMakeFiles/stack2.dir/stack2/main.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/stack2.dir/stack2/stack.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/stack2/stack.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/stack2/stack.cpp",
+  "output": "CMakeFiles/stack2.dir/stack2/stack.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/stack2_me.dir/stack2_me/main.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/stack2_me/main.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/stack2_me/main.cpp",
+  "output": "CMakeFiles/stack2_me.dir/stack2_me/main.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/stack2_me.dir/stack2_me/stack.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/stack2_me/stack.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/stack2_me/stack.cpp",
+  "output": "CMakeFiles/stack2_me.dir/stack2_me/stack.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/stack3.dir/stack3/main.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/stack3/main.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/stack3/main.cpp",
+  "output": "CMakeFiles/stack3.dir/stack3/main.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/stack3.dir/stack3/stack.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/stack3/stack.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/stack3/stack.cpp",
+  "output": "CMakeFiles/stack3.dir/stack3/stack.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/string.dir/string/hello2.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/string/hello2.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/string/hello2.cpp",
+  "output": "CMakeFiles/string.dir/string/hello2.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/string.dir/string/main.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/string/main.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/string/main.cpp",
+  "output": "CMakeFiles/string.dir/string/main.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/string.dir/string/string.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/string/string.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/string/string.cpp",
+  "output": "CMakeFiles/string.dir/string/string.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/string2.dir/string2/main.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/string2/main.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/string2/main.cpp",
+  "output": "CMakeFiles/string2.dir/string2/main.cpp.o"
+},
+{
+  "directory": "/Users/bagjaehyeong/Desktop/cpp/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14  -Wall -Wextra -pedantic -g -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/string2.dir/string2/string.cpp.o -c /Users/bagjaehyeong/Desktop/cpp/cpp/string2/string.cpp",
+  "file": "/Users/bagjaehyeong/Desktop/cpp/cpp/string2/string.cpp",
+  "output": "CMakeFiles/string2.dir/string2/string.cpp.o"
+}
+]

@@ -54,5 +54,6 @@
         "vector": "cpp",
         "algorithm": "cpp",
         "cassert": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/Users/bagjaehyeong/Desktop/cpp/cpp"
 }
