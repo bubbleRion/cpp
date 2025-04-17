@@ -8,10 +8,13 @@
 class Array{
 
 private:
+    static const int ARRAY_SIZE;
+
     int *pArr_;
     int size_;
 public:
-    static const int ARRAY_SIZE; // static member 변수
+    static int getDefaultArraySize();
+    // static const int ARRAY_SIZE; // static member 변수
     // Array();
     // Array(int size);
     // =>

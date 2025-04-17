@@ -28,6 +28,7 @@ int main()
     }
 
     // std::cout << "ARRAY_SIZE : " << ARRAY_SIZE << std::endl;
-    std::cout << "ARRAY_SIZE : " << Array::ARRAY_SIZE << std::endl;
+    // std::cout << "ARRAY_SIZE : " << Array::ARRAY_SIZE << std::endl;
+    std::cout << "ARRAY_SIZE : " << Array::getDefaultArraySize() << std::endl;
     return 0;
 }

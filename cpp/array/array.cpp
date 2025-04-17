@@ -4,6 +4,12 @@
 // const int ARRAY_SIZE = 100;
 const int Array::ARRAY_SIZE = 100; // 특정 클래스와 관련된 전역변수
 
+int Array::getDefaultArraySize()
+{
+    return Array::ARRAY_SIZE;
+}
+
+
 Array::Array(int size)
 : pArr_(new int[size]) , size_(size)
 {
