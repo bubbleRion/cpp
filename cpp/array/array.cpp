@@ -1,6 +1,9 @@
 #include <cassert>
 #include "array.h"
 
+// const int ARRAY_SIZE = 100;
+const int Array::ARRAY_SIZE = 100; // 특정 클래스와 관련된 전역변수
+
 Array::Array(int size)
 : pArr_(new int[size]) , size_(size)
 {
@@ -56,4 +59,19 @@ bool Array::operator==(const Array& rhs) const
         }
     }
     return (i == rhs.size_);
+}
+
+int& Array::operator[](int index)
+{
+    return pArr_[index];
+}
+
+const int& Array::operator[](int index) const
+{
+    return pArr_[index];
+}
+
+int Array::size() const
+{
+    return size_;
 }

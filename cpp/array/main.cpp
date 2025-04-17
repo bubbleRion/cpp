@@ -17,5 +17,17 @@ int main()
         std::cout << "arr1 and arr2 are not equal" << std::endl;
     }
 
+    for(int i=0;i<arr1.size(); ++i)
+    {
+        std::cout << arr1[i]<<std::endl; // arr1.operator[](i)
+    }
+
+    for(int i=0;i<arr4.size(); ++i)
+    {
+        std::cout << arr4[i]<<std::endl; // arr1.operator[](i)
+    }
+
+    // std::cout << "ARRAY_SIZE : " << ARRAY_SIZE << std::endl;
+    std::cout << "ARRAY_SIZE : " << Array::ARRAY_SIZE << std::endl;
     return 0;
 }

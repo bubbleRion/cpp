@@ -1,6 +1,9 @@
 #ifndef ARRAY_H
 #define ARRAY_H
-#define ARRAY_SIZE 100
+
+// #define ARRAY_SIZE 100
+// extern const int ARRAY_SIZE;
+
 
 class Array{
 
@@ -8,6 +11,7 @@ private:
     int *pArr_;
     int size_;
 public:
+    static const int ARRAY_SIZE; // static member 변수
     // Array();
     // Array(int size);
     // =>
@@ -19,6 +23,11 @@ public:
 
     Array& operator=(const Array& rhs);
     bool operator==(const Array& rhs) const;
+
+    int& operator[](int index);
+    const int& operator[](int index) const;
+
+    int size() const;
     
     // X Array() { }
     // X Array(const Array&) { /* memeberwise copy */ }
