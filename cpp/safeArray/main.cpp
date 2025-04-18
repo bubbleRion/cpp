@@ -18,7 +18,10 @@ int main()
         std::cout << arr1[i] << std::endl;
     }
 
-    arr1[5] = 6; // boundary error!
+    // arr1[5] = 6; // boundary error!
+    Array *p = new SafeArray(nums , 5); // 가능 다형성
+    (*p)[5] = 6; // p->operator[][5] = 6;
 
+    delete p;
     return 0;
 }
