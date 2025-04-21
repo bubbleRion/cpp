@@ -5,6 +5,8 @@
             "label": "C/C++: gcc 활성 파일 빌드",
             "command": "/usr/bin/gcc",
             "args": [
+                "-std=c++17",
+                "-stdlib=libc++",
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",

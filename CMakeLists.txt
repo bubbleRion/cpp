@@ -3,3 +3,4 @@ project(MainProject)
 
 add_subdirectory(ds)
 add_subdirectory(cpp)
+add_subdirectory(stl)
