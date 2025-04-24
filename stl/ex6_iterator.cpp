@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-// clang++ -std=c++11 <filename>
+// clang++ -o <만들 file 이름> -std=c++11 <complie 대상>
 int main()
 {
     // 이터레이터는 값을 가리키는 포인터에 가까움

@@ -63,12 +63,7 @@ CMAKE_BINARY_DIR = /Users/bagjaehyeong/Desktop/cpp/stl
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/ex1_vector.dir/all
-all: CMakeFiles/ex2_string_vector.dir/all
-all: CMakeFiles/ex3_longest.dir/all
-all: CMakeFiles/ex4_string.dir/all
-all: CMakeFiles/ex5_string_find.dir/all
-all: CMakeFiles/ex6_iterator.dir/all
+all: CMakeFiles/data_process.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,169 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/ex1_vector.dir/clean
-clean: CMakeFiles/ex2_string_vector.dir/clean
-clean: CMakeFiles/ex3_longest.dir/clean
-clean: CMakeFiles/ex4_string.dir/clean
-clean: CMakeFiles/ex5_string_find.dir/clean
-clean: CMakeFiles/ex6_iterator.dir/clean
+clean: CMakeFiles/data_process.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ex1_vector.dir
+# Target rules for target CMakeFiles/data_process.dir
 
 # All Build rule for target.
-CMakeFiles/ex1_vector.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1_vector.dir/build.make CMakeFiles/ex1_vector.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1_vector.dir/build.make CMakeFiles/ex1_vector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles --progress-num=1,2 "Built target ex1_vector"
-.PHONY : CMakeFiles/ex1_vector.dir/all
+CMakeFiles/data_process.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_process.dir/build.make CMakeFiles/data_process.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_process.dir/build.make CMakeFiles/data_process.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles --progress-num=1,2,3 "Built target data_process"
+.PHONY : CMakeFiles/data_process.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ex1_vector.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ex1_vector.dir/all
+CMakeFiles/data_process.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/data_process.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles 0
-.PHONY : CMakeFiles/ex1_vector.dir/rule
+.PHONY : CMakeFiles/data_process.dir/rule
 
 # Convenience name for target.
-ex1_vector: CMakeFiles/ex1_vector.dir/rule
-.PHONY : ex1_vector
+data_process: CMakeFiles/data_process.dir/rule
+.PHONY : data_process
 
 # clean rule for target.
-CMakeFiles/ex1_vector.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1_vector.dir/build.make CMakeFiles/ex1_vector.dir/clean
-.PHONY : CMakeFiles/ex1_vector.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/ex2_string_vector.dir
-
-# All Build rule for target.
-CMakeFiles/ex2_string_vector.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex2_string_vector.dir/build.make CMakeFiles/ex2_string_vector.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex2_string_vector.dir/build.make CMakeFiles/ex2_string_vector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles --progress-num=3,4 "Built target ex2_string_vector"
-.PHONY : CMakeFiles/ex2_string_vector.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/ex2_string_vector.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ex2_string_vector.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles 0
-.PHONY : CMakeFiles/ex2_string_vector.dir/rule
-
-# Convenience name for target.
-ex2_string_vector: CMakeFiles/ex2_string_vector.dir/rule
-.PHONY : ex2_string_vector
-
-# clean rule for target.
-CMakeFiles/ex2_string_vector.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex2_string_vector.dir/build.make CMakeFiles/ex2_string_vector.dir/clean
-.PHONY : CMakeFiles/ex2_string_vector.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/ex3_longest.dir
-
-# All Build rule for target.
-CMakeFiles/ex3_longest.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex3_longest.dir/build.make CMakeFiles/ex3_longest.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex3_longest.dir/build.make CMakeFiles/ex3_longest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles --progress-num=5,6 "Built target ex3_longest"
-.PHONY : CMakeFiles/ex3_longest.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/ex3_longest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ex3_longest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles 0
-.PHONY : CMakeFiles/ex3_longest.dir/rule
-
-# Convenience name for target.
-ex3_longest: CMakeFiles/ex3_longest.dir/rule
-.PHONY : ex3_longest
-
-# clean rule for target.
-CMakeFiles/ex3_longest.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex3_longest.dir/build.make CMakeFiles/ex3_longest.dir/clean
-.PHONY : CMakeFiles/ex3_longest.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/ex4_string.dir
-
-# All Build rule for target.
-CMakeFiles/ex4_string.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4_string.dir/build.make CMakeFiles/ex4_string.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4_string.dir/build.make CMakeFiles/ex4_string.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles --progress-num=7,8 "Built target ex4_string"
-.PHONY : CMakeFiles/ex4_string.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/ex4_string.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ex4_string.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles 0
-.PHONY : CMakeFiles/ex4_string.dir/rule
-
-# Convenience name for target.
-ex4_string: CMakeFiles/ex4_string.dir/rule
-.PHONY : ex4_string
-
-# clean rule for target.
-CMakeFiles/ex4_string.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4_string.dir/build.make CMakeFiles/ex4_string.dir/clean
-.PHONY : CMakeFiles/ex4_string.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/ex5_string_find.dir
-
-# All Build rule for target.
-CMakeFiles/ex5_string_find.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex5_string_find.dir/build.make CMakeFiles/ex5_string_find.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex5_string_find.dir/build.make CMakeFiles/ex5_string_find.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles --progress-num=9,10 "Built target ex5_string_find"
-.PHONY : CMakeFiles/ex5_string_find.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/ex5_string_find.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ex5_string_find.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles 0
-.PHONY : CMakeFiles/ex5_string_find.dir/rule
-
-# Convenience name for target.
-ex5_string_find: CMakeFiles/ex5_string_find.dir/rule
-.PHONY : ex5_string_find
-
-# clean rule for target.
-CMakeFiles/ex5_string_find.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex5_string_find.dir/build.make CMakeFiles/ex5_string_find.dir/clean
-.PHONY : CMakeFiles/ex5_string_find.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/ex6_iterator.dir
-
-# All Build rule for target.
-CMakeFiles/ex6_iterator.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex6_iterator.dir/build.make CMakeFiles/ex6_iterator.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex6_iterator.dir/build.make CMakeFiles/ex6_iterator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles --progress-num=11,12 "Built target ex6_iterator"
-.PHONY : CMakeFiles/ex6_iterator.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/ex6_iterator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ex6_iterator.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles 0
-.PHONY : CMakeFiles/ex6_iterator.dir/rule
-
-# Convenience name for target.
-ex6_iterator: CMakeFiles/ex6_iterator.dir/rule
-.PHONY : ex6_iterator
-
-# clean rule for target.
-CMakeFiles/ex6_iterator.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex6_iterator.dir/build.make CMakeFiles/ex6_iterator.dir/clean
-.PHONY : CMakeFiles/ex6_iterator.dir/clean
+CMakeFiles/data_process.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_process.dir/build.make CMakeFiles/data_process.dir/clean
+.PHONY : CMakeFiles/data_process.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

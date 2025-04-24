@@ -1,8 +1,3 @@
-/Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles/ex1_vector.dir
-/Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles/ex2_string_vector.dir
-/Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles/ex3_longest.dir
-/Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles/ex4_string.dir
-/Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles/ex5_string_find.dir
-/Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles/ex6_iterator.dir
+/Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles/data_process.dir
 /Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles/edit_cache.dir
 /Users/bagjaehyeong/Desktop/cpp/stl/CMakeFiles/rebuild_cache.dir

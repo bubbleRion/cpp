@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -Wall -Wextra -pedantic -g -g -O0 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/data_process.dir/data_process/data_process.cpp.o CMakeFiles/data_process.dir/data_process/main.cpp.o -o data_process

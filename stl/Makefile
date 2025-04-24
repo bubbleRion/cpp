@@ -117,226 +117,65 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ex1_vector
+# Target rules for targets named data_process
 
 # Build rule for target.
-ex1_vector: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex1_vector
-.PHONY : ex1_vector
+data_process: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 data_process
+.PHONY : data_process
 
 # fast build rule for target.
-ex1_vector/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1_vector.dir/build.make CMakeFiles/ex1_vector.dir/build
-.PHONY : ex1_vector/fast
+data_process/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_process.dir/build.make CMakeFiles/data_process.dir/build
+.PHONY : data_process/fast
 
-#=============================================================================
-# Target rules for targets named ex2_string_vector
-
-# Build rule for target.
-ex2_string_vector: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex2_string_vector
-.PHONY : ex2_string_vector
-
-# fast build rule for target.
-ex2_string_vector/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex2_string_vector.dir/build.make CMakeFiles/ex2_string_vector.dir/build
-.PHONY : ex2_string_vector/fast
-
-#=============================================================================
-# Target rules for targets named ex3_longest
-
-# Build rule for target.
-ex3_longest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex3_longest
-.PHONY : ex3_longest
-
-# fast build rule for target.
-ex3_longest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex3_longest.dir/build.make CMakeFiles/ex3_longest.dir/build
-.PHONY : ex3_longest/fast
-
-#=============================================================================
-# Target rules for targets named ex4_string
-
-# Build rule for target.
-ex4_string: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex4_string
-.PHONY : ex4_string
-
-# fast build rule for target.
-ex4_string/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4_string.dir/build.make CMakeFiles/ex4_string.dir/build
-.PHONY : ex4_string/fast
-
-#=============================================================================
-# Target rules for targets named ex5_string_find
-
-# Build rule for target.
-ex5_string_find: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex5_string_find
-.PHONY : ex5_string_find
-
-# fast build rule for target.
-ex5_string_find/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex5_string_find.dir/build.make CMakeFiles/ex5_string_find.dir/build
-.PHONY : ex5_string_find/fast
-
-#=============================================================================
-# Target rules for targets named ex6_iterator
-
-# Build rule for target.
-ex6_iterator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ex6_iterator
-.PHONY : ex6_iterator
-
-# fast build rule for target.
-ex6_iterator/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex6_iterator.dir/build.make CMakeFiles/ex6_iterator.dir/build
-.PHONY : ex6_iterator/fast
-
-ex1_vector.o: ex1_vector.cpp.o
-.PHONY : ex1_vector.o
+data_process/data_process.o: data_process/data_process.cpp.o
+.PHONY : data_process/data_process.o
 
 # target to build an object file
-ex1_vector.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1_vector.dir/build.make CMakeFiles/ex1_vector.dir/ex1_vector.cpp.o
-.PHONY : ex1_vector.cpp.o
+data_process/data_process.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_process.dir/build.make CMakeFiles/data_process.dir/data_process/data_process.cpp.o
+.PHONY : data_process/data_process.cpp.o
 
-ex1_vector.i: ex1_vector.cpp.i
-.PHONY : ex1_vector.i
+data_process/data_process.i: data_process/data_process.cpp.i
+.PHONY : data_process/data_process.i
 
 # target to preprocess a source file
-ex1_vector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1_vector.dir/build.make CMakeFiles/ex1_vector.dir/ex1_vector.cpp.i
-.PHONY : ex1_vector.cpp.i
+data_process/data_process.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_process.dir/build.make CMakeFiles/data_process.dir/data_process/data_process.cpp.i
+.PHONY : data_process/data_process.cpp.i
 
-ex1_vector.s: ex1_vector.cpp.s
-.PHONY : ex1_vector.s
+data_process/data_process.s: data_process/data_process.cpp.s
+.PHONY : data_process/data_process.s
 
 # target to generate assembly for a file
-ex1_vector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex1_vector.dir/build.make CMakeFiles/ex1_vector.dir/ex1_vector.cpp.s
-.PHONY : ex1_vector.cpp.s
+data_process/data_process.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_process.dir/build.make CMakeFiles/data_process.dir/data_process/data_process.cpp.s
+.PHONY : data_process/data_process.cpp.s
 
-ex2_string_vector.o: ex2_string_vector.cpp.o
-.PHONY : ex2_string_vector.o
+data_process/main.o: data_process/main.cpp.o
+.PHONY : data_process/main.o
 
 # target to build an object file
-ex2_string_vector.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex2_string_vector.dir/build.make CMakeFiles/ex2_string_vector.dir/ex2_string_vector.cpp.o
-.PHONY : ex2_string_vector.cpp.o
+data_process/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_process.dir/build.make CMakeFiles/data_process.dir/data_process/main.cpp.o
+.PHONY : data_process/main.cpp.o
 
-ex2_string_vector.i: ex2_string_vector.cpp.i
-.PHONY : ex2_string_vector.i
-
-# target to preprocess a source file
-ex2_string_vector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex2_string_vector.dir/build.make CMakeFiles/ex2_string_vector.dir/ex2_string_vector.cpp.i
-.PHONY : ex2_string_vector.cpp.i
-
-ex2_string_vector.s: ex2_string_vector.cpp.s
-.PHONY : ex2_string_vector.s
-
-# target to generate assembly for a file
-ex2_string_vector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex2_string_vector.dir/build.make CMakeFiles/ex2_string_vector.dir/ex2_string_vector.cpp.s
-.PHONY : ex2_string_vector.cpp.s
-
-ex3_longest.o: ex3_longest.cpp.o
-.PHONY : ex3_longest.o
-
-# target to build an object file
-ex3_longest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex3_longest.dir/build.make CMakeFiles/ex3_longest.dir/ex3_longest.cpp.o
-.PHONY : ex3_longest.cpp.o
-
-ex3_longest.i: ex3_longest.cpp.i
-.PHONY : ex3_longest.i
+data_process/main.i: data_process/main.cpp.i
+.PHONY : data_process/main.i
 
 # target to preprocess a source file
-ex3_longest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex3_longest.dir/build.make CMakeFiles/ex3_longest.dir/ex3_longest.cpp.i
-.PHONY : ex3_longest.cpp.i
+data_process/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_process.dir/build.make CMakeFiles/data_process.dir/data_process/main.cpp.i
+.PHONY : data_process/main.cpp.i
 
-ex3_longest.s: ex3_longest.cpp.s
-.PHONY : ex3_longest.s
-
-# target to generate assembly for a file
-ex3_longest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex3_longest.dir/build.make CMakeFiles/ex3_longest.dir/ex3_longest.cpp.s
-.PHONY : ex3_longest.cpp.s
-
-ex4_string.o: ex4_string.cpp.o
-.PHONY : ex4_string.o
-
-# target to build an object file
-ex4_string.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4_string.dir/build.make CMakeFiles/ex4_string.dir/ex4_string.cpp.o
-.PHONY : ex4_string.cpp.o
-
-ex4_string.i: ex4_string.cpp.i
-.PHONY : ex4_string.i
-
-# target to preprocess a source file
-ex4_string.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4_string.dir/build.make CMakeFiles/ex4_string.dir/ex4_string.cpp.i
-.PHONY : ex4_string.cpp.i
-
-ex4_string.s: ex4_string.cpp.s
-.PHONY : ex4_string.s
+data_process/main.s: data_process/main.cpp.s
+.PHONY : data_process/main.s
 
 # target to generate assembly for a file
-ex4_string.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex4_string.dir/build.make CMakeFiles/ex4_string.dir/ex4_string.cpp.s
-.PHONY : ex4_string.cpp.s
-
-ex5_string_find.o: ex5_string_find.cpp.o
-.PHONY : ex5_string_find.o
-
-# target to build an object file
-ex5_string_find.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex5_string_find.dir/build.make CMakeFiles/ex5_string_find.dir/ex5_string_find.cpp.o
-.PHONY : ex5_string_find.cpp.o
-
-ex5_string_find.i: ex5_string_find.cpp.i
-.PHONY : ex5_string_find.i
-
-# target to preprocess a source file
-ex5_string_find.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex5_string_find.dir/build.make CMakeFiles/ex5_string_find.dir/ex5_string_find.cpp.i
-.PHONY : ex5_string_find.cpp.i
-
-ex5_string_find.s: ex5_string_find.cpp.s
-.PHONY : ex5_string_find.s
-
-# target to generate assembly for a file
-ex5_string_find.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex5_string_find.dir/build.make CMakeFiles/ex5_string_find.dir/ex5_string_find.cpp.s
-.PHONY : ex5_string_find.cpp.s
-
-ex6_iterator.o: ex6_iterator.cpp.o
-.PHONY : ex6_iterator.o
-
-# target to build an object file
-ex6_iterator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex6_iterator.dir/build.make CMakeFiles/ex6_iterator.dir/ex6_iterator.cpp.o
-.PHONY : ex6_iterator.cpp.o
-
-ex6_iterator.i: ex6_iterator.cpp.i
-.PHONY : ex6_iterator.i
-
-# target to preprocess a source file
-ex6_iterator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex6_iterator.dir/build.make CMakeFiles/ex6_iterator.dir/ex6_iterator.cpp.i
-.PHONY : ex6_iterator.cpp.i
-
-ex6_iterator.s: ex6_iterator.cpp.s
-.PHONY : ex6_iterator.s
-
-# target to generate assembly for a file
-ex6_iterator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex6_iterator.dir/build.make CMakeFiles/ex6_iterator.dir/ex6_iterator.cpp.s
-.PHONY : ex6_iterator.cpp.s
+data_process/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_process.dir/build.make CMakeFiles/data_process.dir/data_process/main.cpp.s
+.PHONY : data_process/main.cpp.s
 
 # Help Target
 help:
@@ -346,30 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ex1_vector"
-	@echo "... ex2_string_vector"
-	@echo "... ex3_longest"
-	@echo "... ex4_string"
-	@echo "... ex5_string_find"
-	@echo "... ex6_iterator"
-	@echo "... ex1_vector.o"
-	@echo "... ex1_vector.i"
-	@echo "... ex1_vector.s"
-	@echo "... ex2_string_vector.o"
-	@echo "... ex2_string_vector.i"
-	@echo "... ex2_string_vector.s"
-	@echo "... ex3_longest.o"
-	@echo "... ex3_longest.i"
-	@echo "... ex3_longest.s"
-	@echo "... ex4_string.o"
-	@echo "... ex4_string.i"
-	@echo "... ex4_string.s"
-	@echo "... ex5_string_find.o"
-	@echo "... ex5_string_find.i"
-	@echo "... ex5_string_find.s"
-	@echo "... ex6_iterator.o"
-	@echo "... ex6_iterator.i"
-	@echo "... ex6_iterator.s"
+	@echo "... data_process"
+	@echo "... data_process/data_process.o"
+	@echo "... data_process/data_process.i"
+	@echo "... data_process/data_process.s"
+	@echo "... data_process/main.o"
+	@echo "... data_process/main.i"
+	@echo "... data_process/main.s"
 .PHONY : help
 
 
