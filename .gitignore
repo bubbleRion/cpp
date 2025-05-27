@@ -1,1 +1,6 @@
 /build
+/opencv/build
+/opencv/data
+/network/*
+/docker_test/*
+/python/build/*

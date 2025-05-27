@@ -1,3 +1,9 @@
+// insert key(int) value(string)
+// class DataBase
+// 저장용 컨테이너 - unordered map 참조에 특화된
+// 내부 동기화를 위한 락 구조 설계
+// 컬럼 추가(타입 정하기) 템플릿?
+
 #include <iostream>
 #include <memory>
 #include <future>
@@ -7,15 +13,10 @@
 #include <vector>
 #include <string>
 #include <chrono>
+#include <algorithm>
 
 using namespace std;
 using namespace chrono_literals;
-
-// insert key(int) value(string)
-// class DataBase
-// 저장용 컨테이너 - unordered map 참조에 특화된
-// 내부 동기화를 위한 락 구조 설계
-// 컬럼 추가(타입 정하기) 템플릿?
 
 class DataBase{
     private:
@@ -28,7 +29,13 @@ class DataBase{
             cout << "이동 생성자 호출" << endl;
         }
         void select_star_from_db(){
-            for (auto & [key , value] : row_){
+            vector<pair<int , string>> sorting_row(row_.begin() , row_.end());
+            std::sort(sorting_row.begin(), sorting_row.end(), 
+            [](std::pair<int,string>& a, std::pair<int,string>& b)
+            {
+                return a.first < b.first; // key 오름차순 정렬
+            });
+            for (auto & [key , value] : sorting_row){
                 cout << key << " : " << value << endl;
             }
             return;

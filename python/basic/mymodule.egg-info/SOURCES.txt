@@ -1,0 +1,15 @@
+setup.py
+basic/a01.py
+basic/a02_keyword.py
+basic/a21_cPython.py
+basic/example1.py
+basic/example2.py
+basic/example3.py
+basic/mymodule.egg-info/PKG-INFO
+basic/mymodule.egg-info/SOURCES.txt
+basic/mymodule.egg-info/dependency_links.txt
+basic/mymodule.egg-info/top_level.txt
+mymodule.egg-info/PKG-INFO
+mymodule.egg-info/SOURCES.txt
+mymodule.egg-info/dependency_links.txt
+mymodule.egg-info/top_level.txt

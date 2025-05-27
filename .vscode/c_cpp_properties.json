@@ -1,11 +1,11 @@
-
 {
     "configurations": [
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
-                // "/usr/include/**"
+                "${workspaceFolder}/**",
+                "/opt/homebrew/Cellar/opencv/**",
+                "/usr/local/**"
             ],
             "defines": [
                 "__KERNEL__",
